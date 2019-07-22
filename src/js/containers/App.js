@@ -1,3 +1,3 @@
-import React from "react";
+import React from 'react'
 
-export default () => <div>Widget Manager App v1</div>;
+export default () => <div>Widget Manager App v1</div>
