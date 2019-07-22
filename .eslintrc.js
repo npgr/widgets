@@ -1,14 +1,16 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true
+    es6: true,
+    'jest/globals': true
   },
   extends: [
     'airbnb',
     'plugin:import/errors',
     'plugin:import/warnings',
     'prettier',
-    'prettier/react'
+    'prettier/react',
+    'plugin:jest/recommended'
   ],
   globals: {
     Atomics: 'readonly',
@@ -24,7 +26,7 @@ module.exports = {
     allowImportExportEverywhere: false,
     codeFrame: true
   },
-  plugins: ['import', 'react', 'prettier'],
+  plugins: ['import', 'react', 'prettier', 'jest'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     semi: 0,
