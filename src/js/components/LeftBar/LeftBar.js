@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 import { Block, Button } from '../StyledComponents'
 import { addScreen } from '../../actions/screens'
 
@@ -19,6 +20,10 @@ const LeftBar = ({ addScreen }) => (
     </Block>
   </Block>
 )
+
+LeftBar.propTypes = {
+  addScreen: PropTypes.func.isRequired
+}
 
 export default connect(
   mapStateToProps,
