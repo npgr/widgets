@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
-export default styled.button`
+const Button = styled.button`
   background-color: #2196f3;
   //on hover
   //on click
@@ -10,3 +11,9 @@ export default styled.button`
   padding-right: 1vw;
   ${({ mleft }) => mleft && `margin-left: ${mleft};`}
 `
+
+Button.propTypes = {
+  mleft: PropTypes.string
+}
+
+export default Button
