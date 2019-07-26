@@ -1,26 +1,28 @@
-import styled from 'styled-components'
-import PropTypes from 'prop-types'
+import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const Block = styled.div`
-    ${({ width }) => width && `width: ${width};`}
-    ${({ height }) => height && `height: ${height};`}
-    ${({ flex }) => flex && 'display: flex;'}
     ${({ align }) => align && `text-align: ${align};`}
     ${({ bgColor }) => bgColor && `background-color: ${bgColor};`}
-    padding: ${({ padding }) => padding || '2vh 2vw'};
-    ${({ ptop }) => ptop && `padding-top: ${ptop};`}
+    ${({ flex }) => flex && "display: flex;"}
+    ${({ height }) => height && `height: ${height};`}
     ${({ pright }) => pright && `padding-right: ${pright};`}
-`
+    ${({ ptop }) => ptop && `padding-top: ${ptop};`}
+    ${({ spaceBetween }) => spaceBetween && "justify-content: space-between;"}
+    ${({ width }) => width && `width: ${width};`}
+    padding: ${({ padding }) => padding || "2vh 2vw"};
+`;
 
 Block.propTypes = {
-  width: PropTypes.string,
-  height: PropTypes.string,
-  flex: PropTypes.bool,
   align: PropTypes.string,
   bgColor: PropTypes.string,
+  flex: PropTypes.bool,
+  height: PropTypes.string,
   padding: PropTypes.string,
+  pright: PropTypes.string,
   ptop: PropTypes.string,
-  pright: PropTypes.string
-}
+  spaceBetween: PropTypes.bool,
+  width: PropTypes.string
+};
 
-export default Block
+export default Block;
