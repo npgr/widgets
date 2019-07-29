@@ -1,7 +1,191 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<App /> renders 1 <App /> component 1`] = `
-<div>
-  Widget Manager App v2
-</div>
+<Fragment>
+  <_default />
+  <styled.div
+    flex={true}
+    padding="0"
+  >
+    <Connect(LeftBar) />
+    <_default />
+    <_default />
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<Block /> renders 1 <Block /> component 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+    ",
+          [Function],
+          "
+    ",
+          [Function],
+          "
+    ",
+          [Function],
+          "
+    ",
+          [Function],
+          "
+    ",
+          [Function],
+          "
+    padding: ",
+          [Function],
+          ";
+    ",
+          [Function],
+          "
+    ",
+          [Function],
+          "
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Prueba
+</StyledComponent>
+`;
+
+exports[`<Button /> renders 1 <Button /> component 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": false,
+        "rules": Array [
+          "
+  background-color: #2196f3;
+  //on hover
+  //on click
+  color: white;
+  border-radius: 2px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  ",
+          [Function],
+          "
+",
+        ],
+      },
+      "displayName": "styled.button",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "button",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Prueba
+</StyledComponent>
+`;
+
+exports[`<CentralArea /> renders 1 <CentralArea /> component 1`] = `
+<styled.div
+  align="center"
+  bgColor="gainsboro"
+  height="90vh"
+  pright="0"
+  width="50vw"
+>
+  <styled.div
+    align="right"
+    height="10vh"
+    pright="0"
+  >
+    <styled.button>
+      Save
+    </styled.button>
+    <styled.button
+      mleft=".5vw"
+    >
+      Save new version
+    </styled.button>
+    <styled.button
+      mleft=".5vw"
+    >
+      Submit for verification
+    </styled.button>
+  </styled.div>
+  <styled.div
+    bgColor="white"
+    height="75vh"
+  >
+    Central Area
+  </styled.div>
+</styled.div>
+`;
+
+exports[`<Header /> renders 1 <Header /> component 1`] = `
+<styled.div
+  height="10vh"
+>
+  Dashboard
+</styled.div>
+`;
+
+exports[`<LeftBar /> renders 1 <LeftBar /> component 1`] = `
+<styled.div
+  height="90vh"
+  pright="0"
+  width="25vw"
+>
+  <styled.div
+    padding="0.3vh 5px"
+  >
+    Screens:
+  </styled.div>
+  <styled.div
+    bgColor="#9E9E9E"
+    padding="5px"
+  >
+    <styled.button>
+      + Add
+    </styled.button>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`<RightBar /> renders 1 <RightBar /> component 1`] = `
+<styled.div
+  bgColor="gainsboro"
+  height="90vh"
+  ptop="4vh"
+  width="25vw"
+>
+  <styled.div
+    bgColor="white"
+    height="83vh"
+  >
+    Charts
+  </styled.div>
+</styled.div>
 `;
