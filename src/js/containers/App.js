@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import GlobalState from '../context/GlobalState'
 import { Header } from '../components/Header'
 import { LeftBar } from '../components/LeftBar'
 import { RightBar } from '../components/RightBar'
@@ -7,13 +8,15 @@ import { Block } from '../components/StyledComponents'
 
 export default () => {
   return (
-    <Fragment>
-      <Header />
-      <Block flex padding='0'>
-        <LeftBar />
-        <CentralArea />
-        <RightBar />
+    <GlobalState>
+      <Block margin='0' padding='0'>
+        <Header />
+        <Block flex padding='0'>
+          <LeftBar />
+          <CentralArea />
+          <RightBar />
+        </Block>
       </Block>
-    </Fragment>
+    </GlobalState>
   )
 }
