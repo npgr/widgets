@@ -1,42 +1,37 @@
-import React from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
-import { Block, Button } from "../StyledComponents";
-import { addScreen, removeScreen } from "../../actions/screens";
+import React from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import { Block, Button } from '../StyledComponents'
 
-const mapStateToProps = ({ screens: { screens } }) => ({
-  screens
-});
+export default () => {
+  const screens = useSelector(state => state.screens.screens)
+  const dispatch = useDispatch()
 
-const mapDispatchToProps = {
-  addScreen,
-  removeScreen
-};
+  const addScreen = name =>
+    dispatch({
+      type: 'ADD_SCREEN',
+      payload: { name }
+    })
 
-const LeftBar = ({ screens, addScreen, removeScreen }) => (
-  <Block width="25vw" height="90vh" pright="0">
-    <Block padding="0.3vh 5px">Screens:</Block>
-    <Block bgColor="#9E9E9E" padding="5px">
-      <Button onClick={() => addScreen("prueba")}>+ Add</Button>
+  const removeScreen = id =>
+    dispatch({
+      type: 'REMOVE_SCREEN',
+      payload: { id }
+    })
+
+  return (
+    <Block width='25vw' height='90vh' pright='0'>
+      <Block padding='0.3vh 5px'>Screens:</Block>
+      <Block bgColor='#9E9E9E' padding='5px'>
+        <Button onClick={() => addScreen('prueba')}>+ Add</Button>
+      </Block>
+      <Block mtop='5vh'>
+        {screens.map(({ id, name }, i) => (
+          <Block key={`${name}_${i}`} flex spaceBetween padding='2px'>
+            <Block flex padding='0'>{`(${id}) ${name}`}</Block>
+            <Button onClick={() => removeScreen(id)}>Delete</Button>
+          </Block>
+        ))}
+      </Block>
     </Block>
-    <Block mtop="5vh">
-      {screens.map(({ id, name }, i) => (
-        <Block key={`${name}_${i}`} flex spaceBetween padding="2px">
-          <Block flex padding="0">{`(${id}) ${name}`}</Block>
-          <Button onClick={() => removeScreen(id)}>Delete</Button>
-        </Block>
-      ))}
-    </Block>
-  </Block>
-);
-
-LeftBar.propTypes = {
-  screens: PropTypes.array.isRequired,
-  addScreen: PropTypes.func.isRequired,
-  removeScreen: PropTypes.func.isRequired
-};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(LeftBar);
+  )
+}
