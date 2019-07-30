@@ -4,9 +4,10 @@ import { Block, Button } from '../StyledComponents'
 
 export default () => {
   const {
-    screen: { screens },
+    screen: { activeId, screens },
     addScreen,
-    removeScreen
+    removeScreen,
+    selectScreen
   } = useContext(WidgetsContext)
 
   return (
@@ -16,10 +17,23 @@ export default () => {
         <Button onClick={() => addScreen('prueba')}>+ Add</Button>
       </Block>
       <Block mtop='5vh'>
-        {screens.map(({ id, name }, i) => (
-          // eslint-disable-next-line react/no-array-index-key
-          <Block key={`${name}_${i}`} flex spaceBetween padding='2px'>
-            <Block flex padding='0'>{`(${id}) ${name}`}</Block>
+        {screens.map(({ id, name }) => (
+          <Block
+            key={id}
+            flex
+            spaceBetween
+            padding='2px'
+            selected={id === activeId}
+          >
+            <Block
+              key={id}
+              flex
+              spaceBetween
+              padding='2px'
+              onClick={() => selectScreen(id)}
+            >
+              {`(${id}) ${name}`}
+            </Block>
             <Button onClick={() => removeScreen(id)}>Delete</Button>
           </Block>
         ))}

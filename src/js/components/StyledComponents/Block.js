@@ -12,6 +12,7 @@ const Block = styled.div`
     ${({ spaceBetween }) => spaceBetween && 'justify-content: space-between;'}
     ${({ width }) => width && `width: ${width};`}
     padding: ${({ padding }) => padding || '2vh 2vw'};
+    ${({ selected }) => selected && 'background-color: gainsboro'}
 `
 
 Block.propTypes = {
@@ -24,7 +25,8 @@ Block.propTypes = {
   pright: PropTypes.string,
   ptop: PropTypes.string,
   spaceBetween: PropTypes.bool,
-  width: PropTypes.string
+  width: PropTypes.string,
+  selected: PropTypes.bool
 }
 
 export default Block

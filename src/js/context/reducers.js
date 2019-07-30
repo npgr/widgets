@@ -2,6 +2,7 @@ import uuid from 'uuid/v4'
 
 export const ADD_SCREEN = 'ADD_SCREEN'
 export const REMOVE_SCREEN = 'REMOVE_SCREEN'
+export const SELECT_SCREEN = 'SELECT_SCREEN'
 
 const defaultState = {
   activeId: 0,
@@ -42,6 +43,11 @@ export const screenReducer = (state = defaultState, action) => {
         screens: newScreens
       }
     }
+    case SELECT_SCREEN:
+      return {
+        ...state,
+        activeId: payload.id
+      }
     default:
       return state
   }

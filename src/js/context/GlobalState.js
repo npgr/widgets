@@ -1,7 +1,12 @@
 import React, { useReducer } from 'react'
 import PropTypes from 'prop-types'
 import WidgetsContext from './WidgetsContext'
-import { screenReducer, ADD_SCREEN, REMOVE_SCREEN } from './reducers'
+import {
+  screenReducer,
+  ADD_SCREEN,
+  REMOVE_SCREEN,
+  SELECT_SCREEN
+} from './reducers'
 
 const GlobalState = ({ children }) => {
   const [screenState, dispatch] = useReducer(screenReducer, {
@@ -21,17 +26,26 @@ const GlobalState = ({ children }) => {
       payload: { id }
     })
 
-  const value = {
+  const selectScreen = id =>
+    dispatch({
+      type: SELECT_SCREEN,
+      payload: { id }
+    })
+
+  const context = {
     screen: screenState,
     addScreen,
-    removeScreen
+    removeScreen,
+    selectScreen
   }
 
   // eslint-disable-next-line no-console
   console.log('state: ', screenState)
 
   return (
-    <WidgetsContext.Provider value={value}>{children}</WidgetsContext.Provider>
+    <WidgetsContext.Provider value={context}>
+      {children}
+    </WidgetsContext.Provider>
   )
 }
 
