@@ -1,22 +1,13 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import React, { useContext } from 'react'
+import WidgetsContext from '../../context/WidgetsContext'
 import { Block, Button } from '../StyledComponents'
 
 export default () => {
-  const screens = useSelector(state => state.screens.screens)
-  const dispatch = useDispatch()
-
-  const addScreen = name =>
-    dispatch({
-      type: 'ADD_SCREEN',
-      payload: { name }
-    })
-
-  const removeScreen = id =>
-    dispatch({
-      type: 'REMOVE_SCREEN',
-      payload: { id }
-    })
+  const {
+    screen: { screens },
+    addScreen,
+    removeScreen
+  } = useContext(WidgetsContext)
 
   return (
     <Block width='25vw' height='90vh' pright='0'>
@@ -26,6 +17,7 @@ export default () => {
       </Block>
       <Block mtop='5vh'>
         {screens.map(({ id, name }, i) => (
+          // eslint-disable-next-line react/no-array-index-key
           <Block key={`${name}_${i}`} flex spaceBetween padding='2px'>
             <Block flex padding='0'>{`(${id}) ${name}`}</Block>
             <Button onClick={() => removeScreen(id)}>Delete</Button>

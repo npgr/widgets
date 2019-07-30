@@ -10,6 +10,8 @@ const defaultState = {
 
 export const screenReducer = (state = defaultState, action) => {
   const { type, payload } = action
+  // eslint-disable-next-line no-console
+  console.log(type)
   switch (type) {
     case ADD_SCREEN: {
       const newId = uuid().substring(0, 5)

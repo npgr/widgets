@@ -3,7 +3,7 @@ import WidgetsContext from '../../context/WidgetsContext'
 import { Block, Button } from '../StyledComponents'
 
 export default () => {
-  const { screen, addScreen } = useContext(WidgetsContext)
+  const { screen } = useContext(WidgetsContext)
 
   return (
     <Block
@@ -14,7 +14,7 @@ export default () => {
       pright='0'
     >
       <Block align='right' height='10vh' pright='0'>
-        <Button onClick={() => addScreen('prueba')}>Save</Button>
+        <Button>Save</Button>
         <Button mleft='.5vw'>Save new version</Button>
         <Button mleft='.5vw'>Submit for verification</Button>
       </Block>
