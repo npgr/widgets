@@ -1,84 +1,521 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> renders 1 <App /> component 1`] = `
-<Fragment>
-  <_default />
-  <styled.div
-    flex={true}
-    padding="0"
-  >
-    <Connect(LeftBar) />
-    <_default />
-    <_default />
-  </styled.div>
-</Fragment>
-`;
-
-exports[`<Block /> renders 1 <Block /> component 1`] = `
-<StyledComponent
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
-        "isStatic": false,
-        "rules": Array [
-          "
+exports[`<App /> Render <App />, check initial snapshot 1`] = `
+<_default>
+  <GlobalState>
+    <styled.div
+      margin="0"
+      padding="0"
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "beSiol",
+              "rules": Array [
+                "
     ",
-          [Function],
-          "
+                [Function],
+                "
     ",
-          [Function],
-          "
+                [Function],
+                "
     ",
-          [Function],
-          "
+                [Function],
+                "
     ",
-          [Function],
-          "
+                [Function],
+                "
     ",
-          [Function],
-          "
+                [Function],
+                "
+    ",
+                [Function],
+                "
+    ",
+                [Function],
+                "
+    ",
+                [Function],
+                "
+    ",
+                [Function],
+                "
     padding: ",
-          [Function],
-          ";
+                [Function],
+                ";
     ",
-          [Function],
-          "
-    ",
-          [Function],
-          "
+                [Function],
+                "
 ",
-        ],
-      },
-      "displayName": "styled.div",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
->
-  Prueba
-</StyledComponent>
-`;
-
-exports[`<Button /> renders 1 <Button /> component 1`] = `
-<StyledComponent
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "sc-bwzfXH",
-        "isStatic": false,
-        "rules": Array [
-          "
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "align": [Function],
+              "bgColor": [Function],
+              "flex": [Function],
+              "height": [Function],
+              "margin": [Function],
+              "padding": [Function],
+              "pright": [Function],
+              "ptop": [Function],
+              "selected": [Function],
+              "spaceBetween": [Function],
+              "width": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        margin="0"
+        padding="0"
+      >
+        <div
+          className="sc-bdVaJa GZlkY"
+        >
+          <_default>
+            <styled.div
+              height="10vh"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "beSiol",
+                      "rules": Array [
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    ",
+                        [Function],
+                        "
+    padding: ",
+                        [Function],
+                        ";
+    ",
+                        [Function],
+                        "
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "propTypes": Object {
+                      "align": [Function],
+                      "bgColor": [Function],
+                      "flex": [Function],
+                      "height": [Function],
+                      "margin": [Function],
+                      "padding": [Function],
+                      "pright": [Function],
+                      "ptop": [Function],
+                      "selected": [Function],
+                      "spaceBetween": [Function],
+                      "width": [Function],
+                    },
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                height="10vh"
+              >
+                <div
+                  className="sc-bdVaJa ecsqHG"
+                  height="10vh"
+                >
+                  Dashboard
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </_default>
+          <styled.div
+            flex={true}
+            padding="0"
+          >
+            <StyledComponent
+              flex={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": false,
+                    "lastClassName": "beSiol",
+                    "rules": Array [
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    ",
+                      [Function],
+                      "
+    padding: ",
+                      [Function],
+                      ";
+    ",
+                      [Function],
+                      "
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "propTypes": Object {
+                    "align": [Function],
+                    "bgColor": [Function],
+                    "flex": [Function],
+                    "height": [Function],
+                    "margin": [Function],
+                    "padding": [Function],
+                    "pright": [Function],
+                    "ptop": [Function],
+                    "selected": [Function],
+                    "spaceBetween": [Function],
+                    "width": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              padding="0"
+            >
+              <div
+                className="sc-bdVaJa bmWaDL"
+              >
+                <_default>
+                  <styled.div
+                    height="90vh"
+                    pright="0"
+                    width="25vw"
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "beSiol",
+                            "rules": Array [
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    padding: ",
+                              [Function],
+                              ";
+    ",
+                              [Function],
+                              "
+",
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "propTypes": Object {
+                            "align": [Function],
+                            "bgColor": [Function],
+                            "flex": [Function],
+                            "height": [Function],
+                            "margin": [Function],
+                            "padding": [Function],
+                            "pright": [Function],
+                            "ptop": [Function],
+                            "selected": [Function],
+                            "spaceBetween": [Function],
+                            "width": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      height="90vh"
+                      pright="0"
+                      width="25vw"
+                    >
+                      <div
+                        className="sc-bdVaJa gSNaLZ"
+                        height="90vh"
+                        width="25vw"
+                      >
+                        <styled.div
+                          padding="0.3vh 5px"
+                        >
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "beSiol",
+                                  "rules": Array [
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    padding: ",
+                                    [Function],
+                                    ";
+    ",
+                                    [Function],
+                                    "
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "propTypes": Object {
+                                  "align": [Function],
+                                  "bgColor": [Function],
+                                  "flex": [Function],
+                                  "height": [Function],
+                                  "margin": [Function],
+                                  "padding": [Function],
+                                  "pright": [Function],
+                                  "ptop": [Function],
+                                  "selected": [Function],
+                                  "spaceBetween": [Function],
+                                  "width": [Function],
+                                },
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            padding="0.3vh 5px"
+                          >
+                            <div
+                              className="sc-bdVaJa VGkVF"
+                            >
+                              Screens:
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
+                        <styled.div
+                          bgColor="#9E9E9E"
+                          padding="5px"
+                        >
+                          <StyledComponent
+                            bgColor="#9E9E9E"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "beSiol",
+                                  "rules": Array [
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    padding: ",
+                                    [Function],
+                                    ";
+    ",
+                                    [Function],
+                                    "
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "propTypes": Object {
+                                  "align": [Function],
+                                  "bgColor": [Function],
+                                  "flex": [Function],
+                                  "height": [Function],
+                                  "margin": [Function],
+                                  "padding": [Function],
+                                  "pright": [Function],
+                                  "ptop": [Function],
+                                  "selected": [Function],
+                                  "spaceBetween": [Function],
+                                  "width": [Function],
+                                },
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            padding="5px"
+                          >
+                            <div
+                              className="sc-bdVaJa fzOmjj"
+                            >
+                              <styled.button
+                                id="addButton"
+                                onClick={[Function]}
+                              >
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bwzfXH",
+                                        "isStatic": false,
+                                        "lastClassName": "eROZPV",
+                                        "rules": Array [
+                                          "
   background-color: #2196f3;
   //on hover
   //on click
@@ -87,105 +524,1236 @@ exports[`<Button /> renders 1 <Button /> component 1`] = `
   padding-left: 1vw;
   padding-right: 1vw;
   ",
-          [Function],
-          "
+                                          [Function],
+                                          "
 ",
-        ],
-      },
-      "displayName": "styled.button",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "sc-bwzfXH",
-      "target": "button",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
->
-  Prueba
-</StyledComponent>
-`;
-
-exports[`<CentralArea /> renders 1 <CentralArea /> component 1`] = `
-<styled.div
-  align="center"
-  bgColor="gainsboro"
-  height="90vh"
-  pright="0"
-  width="50vw"
->
-  <styled.div
-    align="right"
-    height="10vh"
-    pright="0"
-  >
-    <styled.button>
-      Save
-    </styled.button>
-    <styled.button
-      mleft=".5vw"
-    >
-      Save new version
-    </styled.button>
-    <styled.button
-      mleft=".5vw"
-    >
-      Submit for verification
-    </styled.button>
-  </styled.div>
-  <styled.div
-    bgColor="white"
-    height="75vh"
-  >
-    Central Area
-  </styled.div>
-</styled.div>
-`;
-
-exports[`<Header /> renders 1 <Header /> component 1`] = `
-<styled.div
-  height="10vh"
->
-  Dashboard
-</styled.div>
-`;
-
-exports[`<LeftBar /> renders 1 <LeftBar /> component 1`] = `
-<styled.div
-  height="90vh"
-  pright="0"
-  width="25vw"
->
-  <styled.div
-    padding="0.3vh 5px"
-  >
-    Screens:
-  </styled.div>
-  <styled.div
-    bgColor="#9E9E9E"
-    padding="5px"
-  >
-    <styled.button>
-      + Add
-    </styled.button>
-  </styled.div>
-</styled.div>
-`;
-
-exports[`<RightBar /> renders 1 <RightBar /> component 1`] = `
-<styled.div
-  bgColor="gainsboro"
-  height="90vh"
-  ptop="4vh"
-  width="25vw"
->
-  <styled.div
-    bgColor="white"
-    height="83vh"
-  >
-    Charts
-  </styled.div>
-</styled.div>
+                                        ],
+                                      },
+                                      "displayName": "styled.button",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "mleft": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bwzfXH",
+                                      "target": "button",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  id="addButton"
+                                  onClick={[Function]}
+                                >
+                                  <button
+                                    className="sc-bwzfXH cgGSTy"
+                                    id="addButton"
+                                    onClick={[Function]}
+                                  >
+                                    + Add
+                                  </button>
+                                </StyledComponent>
+                              </styled.button>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
+                        <styled.div
+                          mtop="5vh"
+                        >
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "beSiol",
+                                  "rules": Array [
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    padding: ",
+                                    [Function],
+                                    ";
+    ",
+                                    [Function],
+                                    "
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "propTypes": Object {
+                                  "align": [Function],
+                                  "bgColor": [Function],
+                                  "flex": [Function],
+                                  "height": [Function],
+                                  "margin": [Function],
+                                  "padding": [Function],
+                                  "pright": [Function],
+                                  "ptop": [Function],
+                                  "selected": [Function],
+                                  "spaceBetween": [Function],
+                                  "width": [Function],
+                                },
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            mtop="5vh"
+                          >
+                            <div
+                              className="sc-bdVaJa beSiol"
+                            />
+                          </StyledComponent>
+                        </styled.div>
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </_default>
+                <_default>
+                  <styled.div
+                    align="center"
+                    bgColor="gainsboro"
+                    height="90vh"
+                    pright="0"
+                    width="50vw"
+                  >
+                    <StyledComponent
+                      align="center"
+                      bgColor="gainsboro"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "beSiol",
+                            "rules": Array [
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    padding: ",
+                              [Function],
+                              ";
+    ",
+                              [Function],
+                              "
+",
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "propTypes": Object {
+                            "align": [Function],
+                            "bgColor": [Function],
+                            "flex": [Function],
+                            "height": [Function],
+                            "margin": [Function],
+                            "padding": [Function],
+                            "pright": [Function],
+                            "ptop": [Function],
+                            "selected": [Function],
+                            "spaceBetween": [Function],
+                            "width": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      height="90vh"
+                      pright="0"
+                      width="50vw"
+                    >
+                      <div
+                        className="sc-bdVaJa iazpgf"
+                        height="90vh"
+                        width="50vw"
+                      >
+                        <styled.div
+                          align="right"
+                          height="10vh"
+                          pright="0"
+                        >
+                          <StyledComponent
+                            align="right"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "beSiol",
+                                  "rules": Array [
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    padding: ",
+                                    [Function],
+                                    ";
+    ",
+                                    [Function],
+                                    "
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "propTypes": Object {
+                                  "align": [Function],
+                                  "bgColor": [Function],
+                                  "flex": [Function],
+                                  "height": [Function],
+                                  "margin": [Function],
+                                  "padding": [Function],
+                                  "pright": [Function],
+                                  "ptop": [Function],
+                                  "selected": [Function],
+                                  "spaceBetween": [Function],
+                                  "width": [Function],
+                                },
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            height="10vh"
+                            pright="0"
+                          >
+                            <div
+                              className="sc-bdVaJa gaSvPp"
+                              height="10vh"
+                            >
+                              <styled.button>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bwzfXH",
+                                        "isStatic": false,
+                                        "lastClassName": "eROZPV",
+                                        "rules": Array [
+                                          "
+  background-color: #2196f3;
+  //on hover
+  //on click
+  color: white;
+  border-radius: 2px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  ",
+                                          [Function],
+                                          "
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.button",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "mleft": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bwzfXH",
+                                      "target": "button",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <button
+                                    className="sc-bwzfXH cgGSTy"
+                                  >
+                                    Save
+                                  </button>
+                                </StyledComponent>
+                              </styled.button>
+                              <styled.button
+                                mleft=".5vw"
+                              >
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bwzfXH",
+                                        "isStatic": false,
+                                        "lastClassName": "eROZPV",
+                                        "rules": Array [
+                                          "
+  background-color: #2196f3;
+  //on hover
+  //on click
+  color: white;
+  border-radius: 2px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  ",
+                                          [Function],
+                                          "
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.button",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "mleft": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bwzfXH",
+                                      "target": "button",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  mleft=".5vw"
+                                >
+                                  <button
+                                    className="sc-bwzfXH eROZPV"
+                                  >
+                                    Save new version
+                                  </button>
+                                </StyledComponent>
+                              </styled.button>
+                              <styled.button
+                                mleft=".5vw"
+                              >
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bwzfXH",
+                                        "isStatic": false,
+                                        "lastClassName": "eROZPV",
+                                        "rules": Array [
+                                          "
+  background-color: #2196f3;
+  //on hover
+  //on click
+  color: white;
+  border-radius: 2px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  ",
+                                          [Function],
+                                          "
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.button",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "mleft": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bwzfXH",
+                                      "target": "button",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  mleft=".5vw"
+                                >
+                                  <button
+                                    className="sc-bwzfXH eROZPV"
+                                  >
+                                    Submit for verification
+                                  </button>
+                                </StyledComponent>
+                              </styled.button>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
+                        <styled.div
+                          bgColor="white"
+                          height="75vh"
+                        >
+                          <StyledComponent
+                            bgColor="white"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "beSiol",
+                                  "rules": Array [
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    padding: ",
+                                    [Function],
+                                    ";
+    ",
+                                    [Function],
+                                    "
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "propTypes": Object {
+                                  "align": [Function],
+                                  "bgColor": [Function],
+                                  "flex": [Function],
+                                  "height": [Function],
+                                  "margin": [Function],
+                                  "padding": [Function],
+                                  "pright": [Function],
+                                  "ptop": [Function],
+                                  "selected": [Function],
+                                  "spaceBetween": [Function],
+                                  "width": [Function],
+                                },
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            height="75vh"
+                          >
+                            <div
+                              className="sc-bdVaJa GlDHr"
+                              height="75vh"
+                            >
+                              Screen Active: ID = 
+                              <span
+                                id="activeId"
+                              >
+                                0
+                              </span>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </_default>
+                <_default>
+                  <styled.div
+                    bgColor="gainsboro"
+                    height="90vh"
+                    ptop="4vh"
+                    width="25vw"
+                  >
+                    <StyledComponent
+                      bgColor="gainsboro"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "beSiol",
+                            "rules": Array [
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    ",
+                              [Function],
+                              "
+    padding: ",
+                              [Function],
+                              ";
+    ",
+                              [Function],
+                              "
+",
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "propTypes": Object {
+                            "align": [Function],
+                            "bgColor": [Function],
+                            "flex": [Function],
+                            "height": [Function],
+                            "margin": [Function],
+                            "padding": [Function],
+                            "pright": [Function],
+                            "ptop": [Function],
+                            "selected": [Function],
+                            "spaceBetween": [Function],
+                            "width": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      height="90vh"
+                      ptop="4vh"
+                      width="25vw"
+                    >
+                      <div
+                        className="sc-bdVaJa kuMJmK"
+                        height="90vh"
+                        width="25vw"
+                      >
+                        <styled.div
+                          bgColor="white"
+                          height="83vh"
+                        >
+                          <StyledComponent
+                            bgColor="white"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "beSiol",
+                                  "rules": Array [
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    ",
+                                    [Function],
+                                    "
+    padding: ",
+                                    [Function],
+                                    ";
+    ",
+                                    [Function],
+                                    "
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "propTypes": Object {
+                                  "align": [Function],
+                                  "bgColor": [Function],
+                                  "flex": [Function],
+                                  "height": [Function],
+                                  "margin": [Function],
+                                  "padding": [Function],
+                                  "pright": [Function],
+                                  "ptop": [Function],
+                                  "selected": [Function],
+                                  "spaceBetween": [Function],
+                                  "width": [Function],
+                                },
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            height="83vh"
+                          >
+                            <div
+                              className="sc-bdVaJa floPbI"
+                              height="83vh"
+                            >
+                              Charts:
+                              <styled.div>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bdVaJa",
+                                        "isStatic": false,
+                                        "lastClassName": "beSiol",
+                                        "rules": Array [
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    padding: ",
+                                          [Function],
+                                          ";
+    ",
+                                          [Function],
+                                          "
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.div",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "align": [Function],
+                                        "bgColor": [Function],
+                                        "flex": [Function],
+                                        "height": [Function],
+                                        "margin": [Function],
+                                        "padding": [Function],
+                                        "pright": [Function],
+                                        "ptop": [Function],
+                                        "selected": [Function],
+                                        "spaceBetween": [Function],
+                                        "width": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bdVaJa",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="sc-bdVaJa beSiol"
+                                  >
+                                    <FontAwesomeIcon
+                                      border={false}
+                                      className=""
+                                      fixedWidth={false}
+                                      flip={null}
+                                      icon={
+                                        Object {
+                                          "icon": Array [
+                                            544,
+                                            512,
+                                            Array [],
+                                            "f200",
+                                            "M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z",
+                                          ],
+                                          "iconName": "chart-pie",
+                                          "prefix": "fas",
+                                        }
+                                      }
+                                      inverse={false}
+                                      listItem={false}
+                                      mask={null}
+                                      pull={null}
+                                      pulse={false}
+                                      rotation={null}
+                                      size="3x"
+                                      spin={false}
+                                      symbol={false}
+                                      title=""
+                                      transform={null}
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className="svg-inline--fa fa-chart-pie fa-w-17 fa-3x "
+                                        data-icon="chart-pie"
+                                        data-prefix="fas"
+                                        focusable="false"
+                                        role="img"
+                                        style={Object {}}
+                                        viewBox="0 0 544 512"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          d="M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z"
+                                          fill="currentColor"
+                                          style={Object {}}
+                                        />
+                                      </svg>
+                                    </FontAwesomeIcon>
+                                  </div>
+                                </StyledComponent>
+                              </styled.div>
+                              <styled.div>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bdVaJa",
+                                        "isStatic": false,
+                                        "lastClassName": "beSiol",
+                                        "rules": Array [
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    padding: ",
+                                          [Function],
+                                          ";
+    ",
+                                          [Function],
+                                          "
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.div",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "align": [Function],
+                                        "bgColor": [Function],
+                                        "flex": [Function],
+                                        "height": [Function],
+                                        "margin": [Function],
+                                        "padding": [Function],
+                                        "pright": [Function],
+                                        "ptop": [Function],
+                                        "selected": [Function],
+                                        "spaceBetween": [Function],
+                                        "width": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bdVaJa",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="sc-bdVaJa beSiol"
+                                  >
+                                    <FontAwesomeIcon
+                                      border={false}
+                                      className=""
+                                      fixedWidth={false}
+                                      flip={null}
+                                      icon={
+                                        Object {
+                                          "icon": Array [
+                                            512,
+                                            512,
+                                            Array [],
+                                            "f201",
+                                            "M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z",
+                                          ],
+                                          "iconName": "chart-line",
+                                          "prefix": "fas",
+                                        }
+                                      }
+                                      inverse={false}
+                                      listItem={false}
+                                      mask={null}
+                                      pull={null}
+                                      pulse={false}
+                                      rotation={null}
+                                      size="3x"
+                                      spin={false}
+                                      symbol={false}
+                                      title=""
+                                      transform={null}
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className="svg-inline--fa fa-chart-line fa-w-16 fa-3x "
+                                        data-icon="chart-line"
+                                        data-prefix="fas"
+                                        focusable="false"
+                                        role="img"
+                                        style={Object {}}
+                                        viewBox="0 0 512 512"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"
+                                          fill="currentColor"
+                                          style={Object {}}
+                                        />
+                                      </svg>
+                                    </FontAwesomeIcon>
+                                  </div>
+                                </StyledComponent>
+                              </styled.div>
+                              <styled.div>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bdVaJa",
+                                        "isStatic": false,
+                                        "lastClassName": "beSiol",
+                                        "rules": Array [
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    padding: ",
+                                          [Function],
+                                          ";
+    ",
+                                          [Function],
+                                          "
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.div",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "align": [Function],
+                                        "bgColor": [Function],
+                                        "flex": [Function],
+                                        "height": [Function],
+                                        "margin": [Function],
+                                        "padding": [Function],
+                                        "pright": [Function],
+                                        "ptop": [Function],
+                                        "selected": [Function],
+                                        "spaceBetween": [Function],
+                                        "width": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bdVaJa",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="sc-bdVaJa beSiol"
+                                  >
+                                    <FontAwesomeIcon
+                                      border={false}
+                                      className=""
+                                      fixedWidth={false}
+                                      flip={null}
+                                      icon={
+                                        Object {
+                                          "icon": Array [
+                                            512,
+                                            512,
+                                            Array [],
+                                            "f080",
+                                            "M332.8 320h38.4c6.4 0 12.8-6.4 12.8-12.8V172.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V76.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-288 0h38.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zM496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z",
+                                          ],
+                                          "iconName": "chart-bar",
+                                          "prefix": "fas",
+                                        }
+                                      }
+                                      inverse={false}
+                                      listItem={false}
+                                      mask={null}
+                                      pull={null}
+                                      pulse={false}
+                                      rotation={null}
+                                      size="3x"
+                                      spin={false}
+                                      symbol={false}
+                                      title=""
+                                      transform={null}
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className="svg-inline--fa fa-chart-bar fa-w-16 fa-3x "
+                                        data-icon="chart-bar"
+                                        data-prefix="fas"
+                                        focusable="false"
+                                        role="img"
+                                        style={Object {}}
+                                        viewBox="0 0 512 512"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          d="M332.8 320h38.4c6.4 0 12.8-6.4 12.8-12.8V172.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V76.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-288 0h38.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zM496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z"
+                                          fill="currentColor"
+                                          style={Object {}}
+                                        />
+                                      </svg>
+                                    </FontAwesomeIcon>
+                                  </div>
+                                </StyledComponent>
+                              </styled.div>
+                              <styled.div>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bdVaJa",
+                                        "isStatic": false,
+                                        "lastClassName": "beSiol",
+                                        "rules": Array [
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    ",
+                                          [Function],
+                                          "
+    padding: ",
+                                          [Function],
+                                          ";
+    ",
+                                          [Function],
+                                          "
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.div",
+                                      "foldedComponentIds": Array [],
+                                      "propTypes": Object {
+                                        "align": [Function],
+                                        "bgColor": [Function],
+                                        "flex": [Function],
+                                        "height": [Function],
+                                        "margin": [Function],
+                                        "padding": [Function],
+                                        "pright": [Function],
+                                        "ptop": [Function],
+                                        "selected": [Function],
+                                        "spaceBetween": [Function],
+                                        "width": [Function],
+                                      },
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bdVaJa",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="sc-bdVaJa beSiol"
+                                  >
+                                    <FontAwesomeIcon
+                                      border={false}
+                                      className=""
+                                      fixedWidth={false}
+                                      flip={null}
+                                      icon={
+                                        Object {
+                                          "icon": Array [
+                                            512,
+                                            512,
+                                            Array [],
+                                            "f1fe",
+                                            "M500 384c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v308h436zM372.7 159.5L288 216l-85.3-113.7c-5.1-6.8-15.5-6.3-19.9 1L96 248v104h384l-89.9-187.8c-3.2-6.5-11.4-8.7-17.4-4.7z",
+                                          ],
+                                          "iconName": "chart-area",
+                                          "prefix": "fas",
+                                        }
+                                      }
+                                      inverse={false}
+                                      listItem={false}
+                                      mask={null}
+                                      pull={null}
+                                      pulse={false}
+                                      rotation={null}
+                                      size="3x"
+                                      spin={false}
+                                      symbol={false}
+                                      title=""
+                                      transform={null}
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className="svg-inline--fa fa-chart-area fa-w-16 fa-3x "
+                                        data-icon="chart-area"
+                                        data-prefix="fas"
+                                        focusable="false"
+                                        role="img"
+                                        style={Object {}}
+                                        viewBox="0 0 512 512"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          d="M500 384c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v308h436zM372.7 159.5L288 216l-85.3-113.7c-5.1-6.8-15.5-6.3-19.9 1L96 248v104h384l-89.9-187.8c-3.2-6.5-11.4-8.7-17.4-4.7z"
+                                          fill="currentColor"
+                                          style={Object {}}
+                                        />
+                                      </svg>
+                                    </FontAwesomeIcon>
+                                  </div>
+                                </StyledComponent>
+                              </styled.div>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </_default>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </GlobalState>
+</_default>
 `;

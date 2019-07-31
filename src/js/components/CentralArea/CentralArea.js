@@ -19,7 +19,8 @@ export default () => {
         <Button mleft='.5vw'>Submit for verification</Button>
       </Block>
       <Block bgColor='white' height='75vh'>
-        {`Screen Active: ID = ${screen.activeId}`}
+        {'Screen Active: ID = '}
+        <span id='activeId'>{screen.activeId}</span>
       </Block>
     </Block>
   )

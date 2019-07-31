@@ -14,7 +14,9 @@ export default () => {
     <Block width='25vw' height='90vh' pright='0'>
       <Block padding='0.3vh 5px'>Screens:</Block>
       <Block bgColor='#9E9E9E' padding='5px'>
-        <Button onClick={() => addScreen('prueba')}>+ Add</Button>
+        <Button id='addButton' onClick={() => addScreen('prueba')}>
+          + Add
+        </Button>
       </Block>
       <Block mtop='5vh'>
         {screens.map(({ id, name }) => (
@@ -26,6 +28,7 @@ export default () => {
             selected={id === activeId}
           >
             <Block
+              id='newScreen'
               key={id}
               flex
               spaceBetween
@@ -34,7 +37,9 @@ export default () => {
             >
               {`(${id}) ${name}`}
             </Block>
-            <Button onClick={() => removeScreen(id)}>Delete</Button>
+            <Button id='deleteButton' onClick={() => removeScreen(id)}>
+              Delete
+            </Button>
           </Block>
         ))}
       </Block>

@@ -1,58 +1,59 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { mount } from 'enzyme'
 import App from '../js/containers/App'
-import Block from '../js/components/StyledComponents/Block'
-import Button from '../js/components/StyledComponents/Button'
-import { Header } from '../js/components/Header'
-import { LeftBar } from '../js/components/LeftBar'
-import { CentralArea } from '../js/components/CentralArea'
-import { RightBar } from '../js/components/RightBar'
+// import Block from '../js/components/StyledComponents/Block'
+// import Button from '../js/components/StyledComponents/Button'
+// import { Header } from '../js/components/Header'
+// import { LeftBar } from '../js/components/LeftBar'
+// import { CentralArea } from '../js/components/CentralArea'
+// import { RightBar } from '../js/components/RightBar'
 
 describe('<App />', () => {
-  it('renders 1 <App /> component', () => {
-    const component = shallow(<App />)
-    expect(component).toMatchSnapshot()
+  const wrapper = mount(<App />)
+  // beforeEach(() => {
+  //   wrapper = mount(<App />)
+  // })
+  it('Render <App />, check initial snapshot', () => {
+    expect(wrapper).toMatchSnapshot()
   })
-})
-
-describe('<Header />', () => {
-  it('renders 1 <Header /> component', () => {
-    const component = shallow(<Header />)
-    expect(component).toMatchSnapshot()
+  it('Add one screen', () => {
+    wrapper.find('button#addButton').simulate('click')
+    expect(wrapper.find('div#newScreen')).toHaveLength(1)
   })
-})
-
-describe('<Block />', () => {
-  it('renders 1 <Block /> component', () => {
-    const component = shallow(<Block>Prueba</Block>)
-    expect(component).toMatchSnapshot()
+  it('check activeId', () => {
+    const activeId = wrapper.find('span#activeId').text()
+    const screenName = wrapper.find('div#newScreen').text()
+    expect(screenName.includes(activeId)).toEqual(true)
   })
-})
-
-describe('<Button />', () => {
-  it('renders 1 <Button /> component', () => {
-    const component = shallow(<Button>Prueba</Button>)
-    expect(component).toMatchSnapshot()
+  it('Add another screen', () => {
+    wrapper.find('button#addButton').simulate('click')
+    expect(wrapper.find('div#newScreen')).toHaveLength(2)
   })
-})
-
-describe('<LeftBar />', () => {
-  it('renders 1 <LeftBar /> component', () => {
-    const component = shallow(<LeftBar />)
-    expect(component).toMatchSnapshot()
+  it('check second activeId', () => {
+    const activeId = wrapper.find('span#activeId').text()
+    const screenName = wrapper
+      .find('div#newScreen')
+      .last()
+      .text()
+    expect(screenName.includes(activeId)).toEqual(true)
   })
-})
-
-describe('<RightBar />', () => {
-  it('renders 1 <RightBar /> component', () => {
-    const component = shallow(<RightBar />)
-    expect(component).toMatchSnapshot()
+  it('delete last screen', () => {
+    wrapper
+      .find('button#deleteButton')
+      .last()
+      .simulate('click')
+    expect(wrapper.find('div#newScreen')).toHaveLength(1)
   })
-})
-
-describe('<CentralArea />', () => {
-  it('renders 1 <CentralArea /> component', () => {
-    const component = shallow(<CentralArea />)
-    expect(component).toMatchSnapshot()
+  it('check third activeId', () => {
+    const activeId = wrapper.find('span#activeId').text()
+    const screenName = wrapper.find('div#newScreen').text()
+    expect(screenName.includes(activeId)).toEqual(true)
+  })
+  it('delete another screen', () => {
+    wrapper.find('button#deleteButton').simulate('click')
+    expect(wrapper.find('div#newScreen')).toHaveLength(0)
+  })
+  it('active id = 0', () => {
+    expect(wrapper.find('span#activeId').text()).toEqual('0')
   })
 })
