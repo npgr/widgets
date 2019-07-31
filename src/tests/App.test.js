@@ -8,6 +8,11 @@ import App from '@app/containers/App'
 // import { CentralArea } from '../js/components/CentralArea'
 // import { RightBar } from '../js/components/RightBar'
 
+const ADD_BUTTON = 'button#addButton'
+const NEW_SCREEN = 'div#newScreen'
+const ACTIVE_ID = 'span#activeId'
+const DELETE_BUTTON = 'button#deleteButton'
+
 describe('<App />', () => {
   const wrapper = mount(<App />)
   // beforeEach(() => {
@@ -16,44 +21,60 @@ describe('<App />', () => {
   it('Render <App />, check initial snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   })
+
   it('Add one screen', () => {
-    wrapper.find('button#addButton').simulate('click')
-    expect(wrapper.find('div#newScreen')).toHaveLength(1)
+    wrapper.find(ADD_BUTTON).simulate('click')
+    expect(wrapper.find(NEW_SCREEN)).toHaveLength(1)
   })
+
   it('check activeId', () => {
-    const activeId = wrapper.find('span#activeId').text()
-    const screenName = wrapper.find('div#newScreen').text()
+    const activeId = wrapper.find(ACTIVE_ID).text()
+    const screenName = wrapper.find(NEW_SCREEN).text()
     expect(screenName.includes(activeId)).toEqual(true)
   })
+
   it('Add another screen', () => {
-    wrapper.find('button#addButton').simulate('click')
-    expect(wrapper.find('div#newScreen')).toHaveLength(2)
+    wrapper.find(ADD_BUTTON).simulate('click')
+    expect(wrapper.find(NEW_SCREEN)).toHaveLength(2)
   })
+
   it('check second activeId', () => {
-    const activeId = wrapper.find('span#activeId').text()
+    const activeId = wrapper.find(ACTIVE_ID).text()
     const screenName = wrapper
-      .find('div#newScreen')
+      .find(NEW_SCREEN)
       .last()
       .text()
     expect(screenName.includes(activeId)).toEqual(true)
   })
-  it('delete last screen', () => {
-    wrapper
-      .find('button#deleteButton')
-      .last()
-      .simulate('click')
-    expect(wrapper.find('div#newScreen')).toHaveLength(1)
-  })
-  it('check third activeId', () => {
-    const activeId = wrapper.find('span#activeId').text()
-    const screenName = wrapper.find('div#newScreen').text()
+
+  it('Select first screen', () => {
+    const firstScreen = wrapper.find(NEW_SCREEN).first()
+    const screenName = firstScreen.text()
+    firstScreen.simulate('click')
+    const activeId = wrapper.find(ACTIVE_ID).text()
     expect(screenName.includes(activeId)).toEqual(true)
   })
-  it('delete another screen', () => {
-    wrapper.find('button#deleteButton').simulate('click')
-    expect(wrapper.find('div#newScreen')).toHaveLength(0)
+
+  it('delete last screen', () => {
+    wrapper
+      .find(DELETE_BUTTON)
+      .last()
+      .simulate('click')
+    expect(wrapper.find(NEW_SCREEN)).toHaveLength(1)
   })
+
+  it('check third activeId', () => {
+    const activeId = wrapper.find(ACTIVE_ID).text()
+    const screenName = wrapper.find(NEW_SCREEN).text()
+    expect(screenName.includes(activeId)).toEqual(true)
+  })
+
+  it('delete another screen', () => {
+    wrapper.find(DELETE_BUTTON).simulate('click')
+    expect(wrapper.find(NEW_SCREEN)).toHaveLength(0)
+  })
+
   it('active id = 0', () => {
-    expect(wrapper.find('span#activeId').text()).toEqual('0')
+    expect(wrapper.find(ACTIVE_ID).text()).toEqual('0')
   })
 })
