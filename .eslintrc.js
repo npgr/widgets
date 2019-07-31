@@ -26,9 +26,11 @@ module.exports = {
     allowImportExportEverywhere: false,
     codeFrame: true
   },
-  plugins: ['import', 'react', 'prettier', 'jest'],
+  plugins: ['import', 'react', 'prettier', 'jest', 'module-resolver'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'module-resolver/use-alias': 2,
+    'import/no-unresolved': 0,
     semi: 0,
     strict: 0
   }

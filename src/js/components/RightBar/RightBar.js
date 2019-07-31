@@ -7,7 +7,7 @@ import {
   faChartBar,
   faChartArea
 } from '@fortawesome/free-solid-svg-icons'
-import { Block } from '../StyledComponents'
+import { Block } from '@app/components/StyledComponents'
 
 export default () => (
   <Block width='25vw' height='90vh' bgColor='gainsboro' ptop='4vh'>

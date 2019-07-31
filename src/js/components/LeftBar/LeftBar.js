@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import WidgetsContext from '../../context/WidgetsContext'
-import { Block, Button } from '../StyledComponents'
+import WidgetsContext from '@app/context/WidgetsContext'
+import { Block, Button } from '@app/components/StyledComponents'
 
 export default () => {
   const {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { mount } from 'enzyme'
-import App from '../js/containers/App'
+import App from '@app/containers/App'
 // import Block from '../js/components/StyledComponents/Block'
 // import Button from '../js/components/StyledComponents/Button'
 // import { Header } from '../js/components/Header'

@@ -1,10 +1,10 @@
 import React from 'react'
-import GlobalState from '../context/GlobalState'
-import { Header } from '../components/Header'
-import { LeftBar } from '../components/LeftBar'
-import { RightBar } from '../components/RightBar'
-import { CentralArea } from '../components/CentralArea'
-import { Block } from '../components/StyledComponents'
+import GlobalState from '@app/context/GlobalState'
+import { Header } from '@app/components/Header'
+import { LeftBar } from '@app/components/LeftBar'
+import { RightBar } from '@app/components/RightBar'
+import { CentralArea } from '@app/components/CentralArea'
+import { Block } from '@app/components/StyledComponents'
 
 export default () => {
   return (
